@@ -1,5 +1,49 @@
 * {
     margin:0;
     padding:0;
-    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+    margin: 2rem;
+}
+
+input {
+    visibility: hidden;
+}
+
+.container {
+    top: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+    position: absolute;
+    background-color: white;
+    border: solid 1px rgb(87, 87, 87);
+    border-radius: 2rem;
+}
+
+.btn {
+    border: solid 1px rgb(87,87,87);
+    width:8rem;
+    margin:1rem;
+    padding:0.5rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(87,87,87);
+    color: white;
+}
+
+.result-container {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+    height: 50%;
 }
